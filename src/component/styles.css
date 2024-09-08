@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+.mainSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../component/mainBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.695);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.movieList{
+    font-size: 1.6rem;
+    color: #fff;
+    font-weight: 300;
+}
+.listHead{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: red;
+}
+.TableCOntainer{
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 0 0;
+}
+.columnHead{
+    line-height: 5rem;
+}
+.inputContainer{
+    display: flex;
+    justify-content: end;
+}
+.tableMainCOntainer{
+    margin-top: 5rem;
+}
+.inputContainer input{
+    width: 50rem;
+    outline: none;
+    border: none;
+    border-radius: 1rem;
+    height: 4.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #6f7476;
+}
+.titleHead{
+    cursor: pointer;
+}
+.movieBtnContainer button{
+    padding: 1rem 4rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: .1rem solid #6f7476;
+    border-radius: 1rem;
+}
+.movieBtnContainer{
+    display: flex;
+    justify-content: space-around;
+}

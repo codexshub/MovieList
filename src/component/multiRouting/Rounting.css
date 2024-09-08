@@ -1,0 +1,17 @@
+
+.subSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 10rem 0;
+}
+.bg{
+    background-image: url('../mainBG.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 50rem;
+}
